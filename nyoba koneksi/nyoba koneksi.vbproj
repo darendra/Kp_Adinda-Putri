@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>nyoba_koneksi.My.MyApplication</StartupObject>
+    <RootNamespace>nyoba_koneksi</RootNamespace>
+    <AssemblyName>nyoba koneksi</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>nyoba koneksi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>nyoba koneksi.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ayammadu.Designer.vb">
+      <DependentUpon>ayammadu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ayammadu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ayammentega.Designer.vb">
+      <DependentUpon>ayammentega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ayammentega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bajigur.Designer.vb">
+      <DependentUpon>bajigur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="bajigur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="birpletok.Designer.vb">
+      <DependentUpon>birpletok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="birpletok.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buahmangga.Designer.vb">
+      <DependentUpon>buahmangga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buahmangga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="esjeruk.Designer.vb">
+      <DependentUpon>esjeruk.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esjeruk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="esteh.Designer.vb">
+      <DependentUpon>esteh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="esteh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.vb">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="jellymangga.Designer.vb">
+      <DependentUpon>jellymangga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="jellymangga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kangkung.Designer.vb">
+      <DependentUpon>kangkung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kangkung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kopyor.Designer.vb">
+      <DependentUpon>kopyor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kopyor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kuwut.Designer.vb">
+      <DependentUpon>kuwut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="kuwut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sarangburung.Designer.vb">
+      <DependentUpon>sarangburung.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sarangburung.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sayurasem.Designer.vb">
+      <DependentUpon>sayurasem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sayurasem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sayurlodeh.Designer.vb">
+      <DependentUpon>sayurlodeh.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sayurlodeh.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sopayam.Designer.vb">
+      <DependentUpon>sopayam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sopayam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sotoayam.Designer.vb">
+      <DependentUpon>sotoayam.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sotoayam.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telurbalado.Designer.vb">
+      <DependentUpon>telurbalado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="telurbalado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="telurkecap.Designer.vb">
+      <DependentUpon>telurkecap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="telurkecap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ayammadu.resx">
+      <DependentUpon>ayammadu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ayammentega.resx">
+      <DependentUpon>ayammentega.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bajigur.resx">
+      <DependentUpon>bajigur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="birpletok.resx">
+      <DependentUpon>birpletok.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buahmangga.resx">
+      <DependentUpon>buahmangga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esjeruk.resx">
+      <DependentUpon>esjeruk.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="esteh.resx">
+      <DependentUpon>esteh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="jellymangga.resx">
+      <DependentUpon>jellymangga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kangkung.resx">
+      <DependentUpon>kangkung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kopyor.resx">
+      <DependentUpon>kopyor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kuwut.resx">
+      <DependentUpon>kuwut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sarangburung.resx">
+      <DependentUpon>sarangburung.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sayurasem.resx">
+      <DependentUpon>sayurasem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sayurlodeh.resx">
+      <DependentUpon>sayurlodeh.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sopayam.resx">
+      <DependentUpon>sopayam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sotoayam.resx">
+      <DependentUpon>sotoayam.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telurbalado.resx">
+      <DependentUpon>telurbalado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="telurkecap.resx">
+      <DependentUpon>telurkecap.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restoran.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makanan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makanan1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makanan minuman.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makanan2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minuman.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kritik sran.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "nyoba koneksi", "nyoba koneksi\nyoba koneksi.vbproj", "{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4775EE-8895-4CBA-84EE-6716BCF9A08D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC32E63E-C577-4B70-81DC-30A637423BA6}
+	EndGlobalSection
+EndGlobal

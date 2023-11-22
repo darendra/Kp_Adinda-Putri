@@ -1,0 +1,36 @@
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\bin\Debug\nyoba koneksi.exe.config
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\bin\Debug\nyoba koneksi.exe
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\bin\Debug\nyoba koneksi.pdb
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\bin\Debug\nyoba koneksi.xml
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.vbproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form1.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Resources.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.vbproj.GenerateResource.cache
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.vbproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.exe
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.xml
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba koneksi.pdb
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form2.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form3.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form4.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form5.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.kangkung.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.ayammentega.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.sopayam.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.telurbalado.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.sayurasem.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.sayurlodeh.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.sotoayam.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.ayammadu.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.telurkecap.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.sarangburung.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.jellyjagung.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.bajigur.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.birpletok.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.buahmangga.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.esjeruk.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.esteh.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.kopyor.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.kuwut.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form6.resources
+C:\Users\Asus\source\repos\nyoba koneksi\nyoba koneksi\obj\Debug\nyoba_koneksi.Form7.resources
